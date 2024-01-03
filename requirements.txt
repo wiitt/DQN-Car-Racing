@@ -1,0 +1,7 @@
+Numpy
+Matplotlib
+Gymnasium
+Swig
+Pygame
+Pytorch
+Torchrl
