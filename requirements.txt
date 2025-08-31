@@ -1,7 +1,10 @@
-Numpy
-Matplotlib
-Gymnasium
-Swig
-Pygame
-Pytorch
-Torchrl
+numpy<=1.26.4
+matplotlib
+gymnasium<=0.29
+gymnasium[Box2D]<=0.29
+gymnasium[other]<=0.29
+swig
+pygame
+torch<=2.1
+torchrl<=0.2
+tensordict<=0.2
