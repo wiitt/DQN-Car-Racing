@@ -94,10 +94,12 @@ DDQN | 24% | 392.40 | 926.00 | 880.06 | 830.16 | 118.85
 The obtained results of training and evaluation allow to conclude that the maximization bias of DQN approach does not exhibits itself at early stages of training and leave the results unaffected. During the training phase, the DQN model advances in performance, reaches the stable value of high reward and maintains it until the very end of process. The decrease which is usually inherent to maximization error is not observed here. This type of error has a cumulative characteristic, it grows as the training proceeds. By the achieved point, the critical value of it is not reached, so the performance remains uninfluenced. At the same time, an optimistic action estimate enables faster approaching the target action value, while conservative action value estimate of DDQN results in a slight lagging behind in terms of developed performance.<br>
 
 # Code Usage Instructions
-1. Install all the libraries from the requirements.
-2. Modify model parameters and saving paths in the model. 
-2. Run the import code cell.
-3. Run a task specific code cell.
+1. Use Python 3.9.
+2. Install a CUDA version of PyTorch 2.1 
+3. Install other libraries from the requirements.
+4. Modify model parameters and saving paths in the model. 
+5. Run the import code cell.
+6. Run a task specific code cell.
 
 # References
 [1] V. Mnih et al., "Human-level control through deep reinforcement learning”, Nature, vol. 518, pp. 529–533, 2015. DOI: 10.1038/nature14236.<br>
